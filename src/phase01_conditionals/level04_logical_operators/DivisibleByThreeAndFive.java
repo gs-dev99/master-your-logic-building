@@ -2,16 +2,17 @@ package phase01_conditionals.level04_logical_operators;
 
 import java.util.Scanner;
 
-public class DivisibleByMultipleNumber {
+// 4. Check if a number is divisible by both 3 and 5.
+public class DivisibleByThreeAndFive {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter an number to check divisibility by 5 & 3 both");
+        System.out.println("Enter a number : ");
         double number = sc.nextDouble();
         boolean result = isDivisible(number);
         if (result)
-            System.out.println("Number " + number + " is divisible by 5 & 3 both.");
+            System.out.println(number + " is divisible by 5 & 3 both.");
         else
-            System.out.println("Number " + number + " is not divisible by 5 & 3 both.");
+            System.out.println(number + " is not divisible by 5 & 3 both.");
 
     }
 
