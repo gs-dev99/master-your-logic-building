@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class LargestOfTwo {
 
     public static void main(String[] args) {
-//        int a = 50, b = 50;
+// Suppose int a = 50, b = 50;
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first number (A): ");
         int a = sc.nextInt();
